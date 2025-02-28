@@ -1,0 +1,154 @@
+body {
+    background-color: lightgray;
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+  
+  #home {
+    background-color: lightgray;
+    padding: 20px;
+  }
+  
+  #buttonsDiv, #tableDiv {
+    margin: 20px auto;
+    background-color: white;
+    width: 80%;
+    padding: 20px;
+  }
+  
+  button {
+    background-color: gray;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+  }
+  
+  #buttonLogin {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: white;
+    color: black;
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
+  
+  .login-container {
+    background-color: gray;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    text-align: center;
+  }
+  
+  .input-normali {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+  }
+  
+  .button-cancella {
+    background-color: red;
+    color: white;
+    padding: 10px;
+    border: none;
+    width: 45%;
+  }
+  
+  .button-conferma {
+    background-color: green;
+    color: white;
+    padding: 10px;
+    border: none;
+    width: 45%;
+  }
+  
+  .form-container {
+    background-color: black;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    text-align: center;
+  }
+  
+  .admin-button {
+    background-color: white;
+    color: black;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  .visible {
+    display: block;
+  }
+  
+  #tableDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    padding: 20px;
+  }
+  
+  table {
+    width: 80%;
+    border-collapse: collapse;
+    background-color: white;
+    color: gray;
+  }
+  
+  table, th, td {
+    border: 1px solid black;
+  }
+  
+  th, td {
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .navigazione {
+    background-color: gray;
+    border: none;
+    color: blue;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  
+  .prenota {
+    background-color: greenyellow;
+    border-radius: 40px;
+    color: blue;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  
+  .seleziona {
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }

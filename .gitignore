@@ -131,4 +131,4 @@ dist
 
 .ca.pem
 
-.conf.js
+/public/conf.json

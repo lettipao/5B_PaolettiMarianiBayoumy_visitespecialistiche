@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap-grid.min.css"/>
+    <link rel="stylesheet" href="./style.css"/>
+    <title>Visite Mediche</title>
+</head>
+<body>
+    <div id="home" class="page visible">
+        <div class="visible" id="buttonsDiv"></div>
+        <button type="button" id="buttonLogin">Login</button>
+        <div>
+            <button type="button" id="precedente">Precedente</button>
+            <button type="button" id="successivo">Successivo</button>
+        </div>
+        <div class="visible" id="tableDiv"></div>
+    </div>
+    
+    <div id="form" class="page hidden"></div>
+
+    <div id="login" class="page hidden">
+        <div style="z-index: 3; position:absolute; top:25%;left: 50%;transform: translate(-50%,0);">
+            <div class="login-container">
+                <h1><b>Login</b></h1>
+                <input class="input-normali" type="text" placeholder="username" id = "loginUsername">
+                <input class="input-normali" type="text" placeholder="password" id = "loginPassword">
+                <button class="button-cancella" id = "buttonCancellaLogin" type="button">Cancella</button>
+                <button class="button-conferma" type="button" id = "buttonConfermaLogin">Conferma</button>
+            </div>
+        </div>
+    </div>
+
+    
+    <script src="./functions.js" type="module"></script>
+    <script src="./components.js" type="module"></script>
+    <script src="./script.js" type="module"></script>
+</body>
+</html>
